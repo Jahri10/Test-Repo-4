@@ -1,0 +1,25 @@
+
+node_modules
+
+/api/dist
+/api/node_modules
+/api/coverage
+/web-app/dist
+/web-app/node_modules
+/web-app/coverage
+/.vscode
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Preload data files
+api/preload/**
+
+**/logs/
+
+# ignore backup files
+devops/backups/*.tar*
+# Ignore everything except the .gitkeep file
+devops/backups/selected-backup-file/*
+!devops/backups/selected-backup-file/.gitkeep
