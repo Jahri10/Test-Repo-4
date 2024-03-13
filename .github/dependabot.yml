@@ -38,13 +38,13 @@ updates:
         patterns:
           - "*" 
 
-  # - package-ecosystem: "pip"
-  #   directory: "/text-extract"
-  #   schedule:
-  #     interval: "weekly"
-  #   groups:
-  #     # This is the name of your group, it will be used in PR titles and branch names
-  #     dev-dependencies:
-  #       # A pattern can be...
-  #       patterns:
-  #         - "*"
+  - package-ecosystem: "pip"
+    directory: "/text-extract"
+    schedule:
+      interval: "weekly"
+    groups:
+      # This is the name of your group, it will be used in PR titles and branch names
+      text-extract-dependencies:
+        # A pattern can be...
+        patterns:
+          - "*"
