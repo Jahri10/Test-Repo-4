@@ -1,50 +1,50 @@
-# Version of the Dependabot configuration schema
-version: 2
+# # Version of the Dependabot configuration schema
+# version: 2
 
-updates:
+# updates:
 
-  # # Maintain dependencies for GitHub Actions
-  # - package-ecosystem: "github-actions"
-  #   # Workflow files stored in the default location of `.github/workflows`
-  #   directory: "/"
-  #   schedule:
-  #     interval: "weekly"
-  #   groups:
-  #     # This is the name of your group, it will be used in PR titles and branch names
-  #     dev-dependencies:
-  #       # A pattern can be...
-  #       patterns:
-  #         - "*" 
+#   # # Maintain dependencies for GitHub Actions
+#   # - package-ecosystem: "github-actions"
+#   #   # Workflow files stored in the default location of `.github/workflows`
+#   #   directory: "/"
+#   #   schedule:
+#   #     interval: "weekly"
+#   #   groups:
+#   #     # This is the name of your group, it will be used in PR titles and branch names
+#   #     dev-dependencies:
+#   #       # A pattern can be...
+#   #       patterns:
+#   #         - "*" 
 
-  - package-ecosystem: "npm"
-    directory: "/api"
-    schedule:
-      interval: "weekly"
-    groups:
-      # This is the name of your group, it will be used in PR titles and branch names
-      api-dependencies:
-        # A pattern can be...
-        patterns:
-          - "*" 
+#   - package-ecosystem: "npm"
+#     directory: "/api"
+#     schedule:
+#       interval: "weekly"
+#     groups:
+#       # This is the name of your group, it will be used in PR titles and branch names
+#       api-dependencies:
+#         # A pattern can be...
+#         patterns:
+#           - "*" 
 
-  - package-ecosystem: "npm"
-    directory: "/web-app"
-    schedule:
-      interval: "weekly"
-    groups:
-      # This is the name of your group, it will be used in PR titles and branch names
-      web-app-dependencies:
-        # A pattern can be...
-        patterns:
-          - "*" 
+#   - package-ecosystem: "npm"
+#     directory: "/web-app"
+#     schedule:
+#       interval: "weekly"
+#     groups:
+#       # This is the name of your group, it will be used in PR titles and branch names
+#       web-app-dependencies:
+#         # A pattern can be...
+#         patterns:
+#           - "*" 
 
-  - package-ecosystem: "pip"
-    directory: "/text-extract"
-    schedule:
-      interval: "weekly"
-    groups:
-      # This is the name of your group, it will be used in PR titles and branch names
-      text-extract-dependencies:
-        # A pattern can be...
-        patterns:
-          - "*"
+#   - package-ecosystem: "pip"
+#     directory: "/text-extract"
+#     schedule:
+#       interval: "weekly"
+#     groups:
+#       # This is the name of your group, it will be used in PR titles and branch names
+#       text-extract-dependencies:
+#         # A pattern can be...
+#         patterns:
+#           - "*"
